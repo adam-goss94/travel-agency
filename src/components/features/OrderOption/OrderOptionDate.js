@@ -6,22 +6,16 @@ import styles from './OrderOption.scss';
 
 import 'react-datepicker/dist/react-datepicker-cssmodules.css';
 
-const OrderOptionDate = ({setOptionValue, currentValue}) => {
-
-  const handleChange = (date) => {
-    setOptionValue(`${date.toLocaleDateString()}`);
-  };
-
-  return (
-    <div className={styles.inputSmall}>
-      <DatePicker
-        value={currentValue}
-        placeholderText={'Select a date'}
-        onChange={date => handleChange(date)}
-      />
-    </div>
-  );
-};
+const OrderOptionDate = ({setOptionValue, currentValue}) => (
+  <div className={styles.inputSmall}>
+    <DatePicker
+      value={currentValue}
+      placeholderText={'Select a date'}
+      onChange={setOptionValue}
+      selected={currentValue}
+    />
+  </div>
+);
 
 OrderOptionDate.propTypes = {
   setOptionValue: PropTypes.func,
