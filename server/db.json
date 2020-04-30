@@ -1,0 +1,63 @@
+{
+  "orders": [
+    {
+      "car-rental": "full",
+      "accommodation": "suite",
+      "features": [
+        "all-inclusive"
+      ],
+      "adults": "2",
+      "children": "1",
+      "name": "Adam",
+      "contact": "698206272",
+      "start-date": "2020-05-06T22:00:00.000Z",
+      "totalCost": "$130,452",
+      "id": 1
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "hotel",
+      "features": [
+        "pool",
+        "kitchen",
+        "all-inclusive"
+      ],
+      "adults": 1,
+      "children": 0,
+      "name": "123",
+      "contact": "123",
+      "start-date": "2020-04-24T22:00:00.000Z",
+      "totalCost": "$53,381",
+      "id": 2
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "suite",
+      "features": [
+        "pool",
+        "security"
+      ],
+      "adults": 1,
+      "children": "1",
+      "name": "1212",
+      "contact": "1212",
+      "start-date": "2020-04-28T22:00:00.000Z",
+      "totalCost": "$82,771",
+      "id": 3
+    },
+    {
+      "car-rental": "full",
+      "accommodation": "hotel",
+      "features": [
+        "all-inclusive"
+      ],
+      "adults": 1,
+      "children": 0,
+      "name": "Kuba",
+      "contact": "123456789",
+      "start-date": "2020-07-01T22:00:00.000Z",
+      "totalCost": "$51,681",
+      "id": 4
+    }
+  ]
+}
