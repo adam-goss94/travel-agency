@@ -1,7 +1,6 @@
 import React from 'react';
 import OrderSummary from '../OrderSummary/OrderSummary';
 import OrderOption from '../OrderOption/OrderOption';
-// import styles from './OrderForm.scss';
 import { Col, Row } from 'react-flexbox-grid';
 import pricing from '../../../data/pricing.json';
 import PropTypes from 'prop-types';
@@ -12,7 +11,7 @@ import settings from '../../../data/settings';
 
 const sendOrder = (options, tripCost, tripDays, tripName, tripCountry) => {
   let orderShouldBeSend = true;
-  console.log(tripDays);
+
   (options.contact === '' || !options.name || options['start-date'] === '') ? orderShouldBeSend = false : null;
 
   if (orderShouldBeSend) {
