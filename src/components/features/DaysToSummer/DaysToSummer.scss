@@ -1,0 +1,15 @@
+@import '../../../styles/settings.scss';
+
+.component {
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.daysDescription {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+}
